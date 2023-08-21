@@ -10,9 +10,8 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 import axiosClient from "../axiosClient.js";
-import store from "../store";
 import Meals from "../components/Meals.vue";
 
 const meals = ref([]);

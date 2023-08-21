@@ -71,13 +71,13 @@
       v-if="loading == false"
       class="w-fit mt-3 lg:mt-6 flex justify-center items-center gap-2 sm:gap-3"
     >
-      <YoutubeButton :href="meal.strYoutube">YouTube</YoutubeButton>
+      <YoutubeButton class="mb-8" :href="meal.strYoutube">YouTube</YoutubeButton>
       <a
         :href="meal.strSource"
         target="_blank"
-        class="sm:px-4 sm:py-3 px-2 py-2 text-xs sm:text-sm bg-orange-500 rounded-lg text-white flex justify-center items-center gap-1"
+        class="mb-8 sm:px-4 sm:py-3 px-2 py-2 text-xs sm:text-sm bg-orange-500 rounded-lg text-white flex justify-center items-center gap-1"
         ><box-icon name="window-alt" type="solid" color="#ffffff"></box-icon>
-        View Original Source ></a
+        View Original Source</a
       >
     </div>
   </div>
